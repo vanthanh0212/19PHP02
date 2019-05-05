@@ -1,0 +1,37 @@
+#container{
+	width: 95%;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+header{
+	height: 100px;
+}
+#logo{
+	height: 100px;
+	border-right: 1px solid green;
+	line-height: 200px;
+	text-align: center;
+	width: 70%;
+	float: left;
+}
+#slogan{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+@media screen and (max-width: 768px){
+	#logo{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 480px){
+	#logo, #slogan{
+		width: 100%;
+	}
+	header{
+		height: 200px;
+	}
+	#logo{
+		border-bottom: 1px solid green;
+	}
+}
