@@ -1,0 +1,187 @@
+#container{
+	border:1px solid green;
+	width: 95%;
+	margin: 0 auto;
+}
+header{
+	height: 100px;
+	border-bottom: 1px solid green;
+}
+#logo{
+	width: 30%;
+	border-right: 1px solid green;
+	line-height: 100px;
+	text-align: center;
+	height: 100px;
+	float: left;
+}
+#slogan{
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+#slider{
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+}
+#new{
+	width:95%;
+	margin: 0 auto;
+	border-right: 1px solid green;
+	border-bottom: 1px solid green;
+	border-left: 1px solid green;
+}
+main{
+	height: 100px;
+}
+#new1{
+	width: 30%;
+	border-right: 1px solid green;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+	height: 100px;
+}
+#new2{
+	width: 35%;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+}
+#new3{
+	text-align: center;
+	border-left: 1px solid green;
+	line-height: 100px;
+	height:100px;
+	width: 30%;
+	float: left;
+}
+#ads{
+	width:95%;
+	margin: 0 auto;
+	border-right: 1px solid green;
+	border-bottom: 1px solid green;
+	border-left: 1px solid green;
+	height: 100px;
+}
+#ads1{
+	width: 65%;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+	height: 100px;
+	border-right: 1px solid green;
+}
+#ads2{
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+}
+#content{
+	width:95%;
+	margin: 0 auto;
+	border-right: 1px solid green;
+	border-left: 1px solid green;
+	text-align: center;
+	line-height: 200px;
+	height: 200px;
+}
+#foot{
+	border:1px solid green;
+	width: 95%;
+	margin: 0 auto;
+}
+footer{
+	height: 100px;
+}
+#footer1{
+	width: 49.5%;
+	border-right: 1px solid green;
+	line-height: 100px;
+	text-align: center;
+	height: 100px;
+	float: left;
+}
+#footer2{
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+@media screen and (max-width: 768px){
+	#logo{
+		width: 49.8%;
+	}
+	#new{
+	margin: 0 auto;
+    }
+    main{
+	height: 200px;
+    }
+    #new1{
+	width: 49.8%;
+    }
+    #new2{
+	width: 49.8%;
+    }
+    #new3{
+	border-top: 1px solid green;
+	border-left: none;
+	width: 100%;
+    }
+    #ads1{
+    width: 100%;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+    }
+    #ads2{
+    	display: none;
+    }
+    #content{
+    	height: 100px;
+    	line-height: 100px;
+    }
+}
+@media screen and (max-width: 480px){
+	header{
+	height: 200px;
+	border-bottom: none;
+    }
+	#logo {
+	width: 100%;
+	border-bottom: 1px solid green;
+    }
+    #slogan{
+	height: 100px;
+    }
+    #slider{
+    	display: none;
+    }
+    main{
+    	height: 200px;
+    }
+    #new1{
+	width: 100%;
+	border-bottom: 1px solid green;
+	height: 100px;
+    }
+    #new2{
+    width:100%; 
+	height: 100px;
+    }
+    #new3{
+    	display: none;
+    }
+    footer{
+	height: 200px;
+    }
+	#footer1 {
+	width: 100%;
+	border-bottom: 1px solid green;
+    }
+    #footer2{
+	height: 100px;
+    }
+}
