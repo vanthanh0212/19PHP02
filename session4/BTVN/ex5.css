@@ -1,0 +1,199 @@
+body{
+    text-align:center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#container{
+    width: 100%;
+}
+header{
+    height: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#logo{
+    line-height: 60px;
+    background-color: orange;
+    float: left;
+    width: 49.5%;
+    margin-right: 1%;
+}
+#slogan{
+    line-height: 60px;
+    background-color: orange;
+    float: left;
+    width: 49.5%;
+}
+#banner{
+    height: 240px;
+    background-color: green;
+    text-align: center;
+    line-height: 240px;
+    margin-bottom: 10px;
+}
+#content{
+    width: 100%;
+}
+main{
+    height: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#left{
+    width: 32.5%;
+    line-height:120px;
+    margin-right: 1%;
+    background-color: blue;
+    float: left;
+}
+#mid{
+    width:33%;
+    line-height: 120px;
+    margin-right: 1%;
+    background-color: blue;
+    float: left;
+}
+#right{
+    width: 32.5%;
+    line-height:120px;
+    background-color: blue;
+    float: left;
+}
+#foot{
+    width: 100%;
+}
+footer{
+    height: 100px;
+    text-align: center;
+}
+#footer1{
+    width: 24.25%;
+    line-height:100px;
+    margin-right: 1%;
+    background-color: yellow;
+    float: left;
+}
+#footer2{
+    width: 24.25%;
+    line-height:100px;
+    background-color: yellow;
+    float: left;
+    margin-right: 1%;
+}
+#footer3{
+    width: 24.25%;
+    line-height:100px;
+    margin-right: 1%;
+    background-color: yellow;
+    float: left;
+}
+#footer4{
+    width: 24.25%;
+    line-height:100px;
+    background-color: yellow;
+    float: left;
+}
+@media screen and (max-width: 768px){
+header{
+    height: 105px;
+}
+#logo{
+    line-height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+#slogan{
+    line-height: 50px;
+    width: 100%;
+}
+#banner{
+    height: 200px;
+    line-height: 200px;
+}
+main{
+    height: 190px;
+}
+#left{
+    width: 100%;
+    line-height:60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+#mid{
+    width: 100%;
+    line-height:60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+#right{
+    width: 100%;
+    line-height:60px;
+    height: 60px;
+}
+#foot{
+    width: 100%;
+}
+footer{
+    height: 125px;
+}
+#footer1{
+    width: 49.5%;
+    height: 60px;
+    line-height:60px;
+    margin-bottom: 5px;
+}
+#footer2{
+    width: 49.5%;
+    line-height:60px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-right: 0%;
+}
+#footer3{
+    width: 49.5%;
+    line-height:60px;
+    height: 60px;
+}
+#footer4{
+    width: 49.5%;
+    line-height:60px;
+    height: 60px;
+}
+}
+@media screen and (max-width: 320px){
+#banner{
+    height: 100px;
+    line-height: 100px;
+}
+main{
+    height: 460px;
+}
+#left{
+    line-height:150px;
+    height: 150px;
+}
+#mid{
+    line-height:150px;
+    height: 150px;
+}
+#right{
+    line-height:150px;
+    height: 150px;
+}
+footer{
+    height: 100px;
+}
+#footer1{
+     width: 100%;
+}
+#footer2{
+    display: none;
+}
+#footer3{
+    display: none;
+}
+#footer4{
+    display: none;
+}
+}

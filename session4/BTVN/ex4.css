@@ -1,0 +1,87 @@
+body{
+	margin: 20px;
+}
+#container{
+	width: 95%;
+	margin: 0 auto;
+}
+header{
+	height: 100px;
+}
+#top{
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	height: 100px;
+	float: left;
+	background-color: blue;
+}
+#pos{
+	width:95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+main{
+	height: 500px;
+}
+#left{
+	width:30%;
+	line-height: 500px;
+	float: left;
+	height: 500px;
+	margin-right: 1%;
+	background-color: red;
+}
+#mid{
+	width: 46%;
+	line-height: 500px;
+	float: left;
+	margin-right: 1%;
+	margin-left: 1%;
+	background-color: green;
+}
+#right{
+	line-height: 500px;
+	height:500px;
+	width: 20%;
+	float: left;
+	margin-left: 1%;
+	background-color: orange;
+}
+@media screen and (max-width: 768px){
+	#left{
+	width:100%;
+	line-height: 150px;
+	height: 150px;
+	margin-right: none;
+	margin-bottom: 20px;
+    }
+    #mid{
+	width: 49%;
+	line-height: 330px;
+	margin-left: 0%;
+	height: 330px;
+	float: left;;
+    }
+    #right{
+	line-height: 330px;
+	height:330px;
+	width: 49%;
+    }
+}
+@media screen and (max-width: 480px){
+	#left{
+	width:100%;
+	line-height: 100px;
+	height: 100px;
+    }
+    #mid{
+	width: 100%;
+	line-height: 380px;
+	height: 380px;
+    }
+    #right{
+    	display: none;
+    }
+}
