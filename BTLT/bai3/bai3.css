@@ -1,0 +1,11 @@
+body{
+	background-color: orange;
+	color: white;
+	background-image: url('thanh.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h2{
+	text-align: center;
+	color: green;
+}

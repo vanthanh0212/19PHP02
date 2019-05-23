@@ -1,8 +1,8 @@
 body{
-	margin: 20px;
+	margin: 0;
 }
 #container{
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 }
 header{
@@ -17,7 +17,7 @@ header{
 	background-color: blue;
 }
 #pos{
-	width:95%;
+	width:100%;
 	margin: 0 auto;
 	margin-top: 20px;
 	text-align: center;

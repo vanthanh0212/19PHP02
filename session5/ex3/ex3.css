@@ -1,0 +1,21 @@
+#content ul li {
+	float: left;
+	list-style-type: none;
+	padding: 7px 1px;
+	background-color: blue;
+	text-align: center;
+}
+#content ul li a {
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 3px 10px;
+}
+#content ul li a.active {
+	color: yellow;
+}
+p {
+	font-size: 30px;
+	font-weight: bold; 
+	margin-left: 20px;
+}

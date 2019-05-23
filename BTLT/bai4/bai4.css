@@ -1,0 +1,16 @@
+img{
+	height: 10%;
+	width: 10%;
+	float: left;
+	margin-right: 40px;
+}
+h2{
+	color: pink;
+	text-align: center;
+}
+p{
+	color: white;
+	background-color: orange;
+	font-weight: 500;
+	float: left;
+}

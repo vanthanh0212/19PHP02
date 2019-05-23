@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form-session5</title>
+	<meta charset="utf-8"
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form name="registerFrom" action="#" method="POST">
+		<p> name:
+		<input type="text" name="name" placeholder="please input your name">
+		</p>
+		<p> username:
+		<input type="text" name="username" readonly value="nguyenvthanh0212@gmail.com">
+		</p>
+		<p> Gender
+		<input type="radio" name="Gender" value="Male">Male
+		<input type="radio" name="Gender" value="Female">Female
+		<input type="radio" name="Gender" value="Other">Other
+	    </p>
+		<p> passwword:
+		<input type="password" name="password">
+		</p>
+		<p>Interest
+		<input type="checkbox" name="Interest" value="Soccer">Soccer
+		<input type="checkbox" name="Interest" value="Music">Music
+		<input type="checkbox" name="Interest" value="Photograph">Photograph
+		</p>
+		<p>Address
+			<select name="Address">
+		<option value="Danang" >DaNang </option>
+		<option value="QUang Nam" >Quang Nam </option>
+		<option value="Hue" >HUe </option>
+		</select>
+		</p>
+		<p>About us
+			<textarea name="about" rows="10" cols="10"></textarea>
+		</p>
+		<p>Avatar
+		<input type="file" name="Upload File" value="upload file" accept="jpeg">
+		</p>
+		<p> submit:
+		<input type="submit" name="register" value="register">
+		</p>
+		<p> submit:
+		<input type="button" name="register" value="register">
+		</p>
+		<p> submit:
+		<input type="reset" name="register" value="register">
+		</p>
+	</form>
+</body>
+</html>

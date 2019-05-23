@@ -161,39 +161,39 @@ footer{
     height: 60px;
 }
 }
-@media screen and (max-width: 320px){
-#banner{
-    height: 100px;
-    line-height: 100px;
-}
-main{
-    height: 460px;
-}
-#left{
-    line-height:150px;
-    height: 150px;
-}
-#mid{
-    line-height:150px;
-    height: 150px;
-}
-#right{
-    line-height:150px;
-    height: 150px;
-}
-footer{
-    height: 100px;
-}
-#footer1{
-     width: 100%;
-}
-#footer2{
-    display: none;
-}
-#footer3{
-    display: none;
-}
-#footer4{
-    display: none;
-}
+@media screen and (max-width: 320px) {
+    #banner {
+        height: 100px;
+        line-height: 100px;
+    }
+    main {
+        height: 460px;
+    }
+    #left {
+        line-height:150px;
+        height: 150px;
+    }
+    #mid {
+        line-height:150px;
+        height: 150px;
+    }
+    #right {
+        line-height:150px;
+        height: 150px;
+    }
+    footer{
+        height: 100px;
+    }
+    #footer1 {
+         width: 100%;
+    }
+    #footer2 {
+        display: none;
+    }
+    #footer3 {
+        display: none;
+    }
+    #footer4 {
+        display: none;
+    }
 }
