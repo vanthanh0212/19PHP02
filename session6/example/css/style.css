@@ -1,0 +1,10 @@
+@font-face {
+	font-family: myNewfont;
+	src: url('../fonts/satellite.ttf');
+}
+p.demo2 {
+	font-family: myNewfont;
+}
+p.demo1 {
+	font-family: Arial;
+}
