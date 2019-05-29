@@ -1,0 +1,117 @@
+body {
+	width: 90%;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+.container {
+	width: 100%;
+	border: 1px solid green;
+	height: auto;
+}
+.logo {
+	height: 100px;
+	margin-bottom: 5px;
+}
+.menu {
+	height: 30px;
+	width: 100%;
+	background-color: red;
+	margin-bottom: 25px;
+}
+.menu .menu_list {
+	background-color: red;
+    overflow: hidden;
+    line-height: 30px;
+} 
+.menu_list a {
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding:1% 3.3%;
+	font-size: 17px;
+	border-right:1px solid green;
+	display: block;
+}
+.menu_list a:hover {
+	background-color: green;
+	color: black;
+}
+.menu_list a.active {
+	background-color: white;
+	color: black;
+}
+.banner {
+	width: 100%;
+	height: 400px;
+}
+.banner .banner_left {
+	width: 50%;
+	height: 400px;
+	float: left;
+	border: 1px solid green;
+}
+.banner .banner_left .content_left {
+	margin: 10px 5px;
+}
+.banner .banner_mid {
+	width: 25%;
+	height: 400px;
+	float: left;
+	border: 1px solid green;
+}
+.banner .banner_mid .content_mid {
+	margin: 10px 5px;
+	background-color: red;
+}
+.content_mid .mid1 {
+	width: 100%;
+	height: 120px;
+	background-color: red;
+	float: left;
+}
+.mid1 .top_mid1 {
+	height: 80px;
+	width: 100%;
+	background-color: blue;
+	margin-top: -20px;
+}
+.top_mid1 img {
+	float: left;
+}
+.mid1 .bot_mid1 {
+	height: 40px;
+	width: 100%;
+	background-color: yellow;
+	margin-top: -20px;
+}
+.content_mid .mid2 {
+	width: 100%;
+	height: 120px;
+	background-color: green;
+	float: left;
+}
+.mid2 .top_mid2 {
+	height: 80px;
+	width: 100%;
+	background-color: blue;
+}
+.top_mid2 img {
+	float: left;
+}
+.mid2 .bot_mid2 {
+	height: 40px;
+	width: 100%;
+	background-color: yellow;
+}
+.content_mid .mid3 {
+	width: 100%;
+	height: 120px;
+	background-color: blue;
+	float: left;
+}
+.banner .banner_right {
+	width: 25%;
+	height: 400px;
+	float: left;
+}
