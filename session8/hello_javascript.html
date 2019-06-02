@@ -1,0 +1,33 @@
+<!-- 5 công việc javascript có thể làm 
+1. Thay đổi nội dung HTML
+1. Thay đổi thuộc tính HTML
+1. Thay đổi style HTML
+1. Ẩn đối tượng HTML
+1. Hiển thị đối tượng HTML-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello javascript _ session8</title>
+	<style type="text/css">
+		img {
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<!--1. Thay đổi nội dung HTML-->
+	<p id="demo1" >Hello javascript</p>
+	<a href="#" onclick="document.getElementById('demo1').innerHTML ='Hello PHP19'">Change content</a>
+	<!--2. Thay đổi thuộc tính HTML-->
+	<img src="3.jpg" alt="image" id="demo2">
+	<a href="#" onclick="document.getElementById('demo2').src='4.jpg'">change image</a>
+	<!--3. Thay đổi style HTML-->
+	<p id="demo3">Hello PHP19</p>
+	<a href="#" onclick="document.getElementById('demo3').style.fontSize ='19px'">Change style</a>
+	<!--4. Ẩn đối tượng HTML-->
+	<p id="demo4">Ẩn dối tương</p>
+	<a href="#" onclick="document.getElementById('demo4').style.display ='none'">Hidden object</a>
+		<!--5. Hiển thị đối tượng HTML-->
+	<a href="#" onclick="document.getElementById('demo4').style.display ='block'">Show object</a>
+</body>
+</html>

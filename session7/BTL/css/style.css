@@ -164,8 +164,3 @@ body {
 	clear: left;
 	height: 20px;
 }
-@media screen and (max-width: 768px){
-	.menu .header_menu ul {
-		display: block;
-	}
-}
