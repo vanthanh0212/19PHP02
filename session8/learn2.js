@@ -44,6 +44,6 @@ for (var day = 1 ; day <= 30 ; day++)
 var invest = 2000000;
 for (var day = 1 ; day <= 30 ; day++)
 {
-	invest = invest + invest*0.1 - 5000;
+	invest = invest + invest*0.1 - 50000;
 }
 	document.write('tong tien' +invest+ '<br>');
