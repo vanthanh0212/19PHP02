@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form1-session11</title>
+</head>
+<body>
+	<h1>Register Form</h1>
+	<form>
+		<p>Ten:
+			<input type="text" name="name" id="name">
+		</p>
+		<p id="errName"></p>
+		<p>Email:
+			<input type="text" name="email" id="email">
+		</p>
+		<p id="errEmail"></p>
+		<p>Gender
+			<input type="radio" name="gender" value="Nam" id="Nam">Nam
+			<input type="radio" name="gender" value="Nữ" id="Nu"> Nữ
+		</p>
+		<p id="errGender"></p>
+		<p>Date
+			<input type="date" id="myDate" >
+		</p>
+		<p id="errDate"></p>
+		<p>Address
+			<select id="myAdd">
+				<option value=" ">None</option>
+				<option value="Quảng Nam">Quảng Nam </option>
+				<option value="Quảng Nam">Quảng Nam </option>
+				<option value="Đà Nẵng">Đà Nẵng </option>
+				<option value="Huế">Huế </option>
+			</select>
+		</p>
+		<p id="errAddress"></p>
+		<input type="button" name="Register" value="Register" onclick="checkForm()">
+	</form>
+	<script type="text/javascript" src="style.js"></script>
+</body>
+</html>
