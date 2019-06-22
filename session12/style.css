@@ -82,8 +82,12 @@ body {
 #tableCal {
 	width: 90%;
 	margin: 0 auto;
-	background-color: red;
+	background-color: green;
 	text-align: center;
+}
+#Result {
+	width: 100%;
+	height: 10px;
 }
 #tableCal .btn {
 	width: 100%;
@@ -129,7 +133,6 @@ body {
 	display: none
 }
 img {
-	vertical-align: middle;
 	width: 100%;
 }
 .slideshow-container {
@@ -137,24 +140,22 @@ img {
 	position: relative;
 	margin: auto;
 }
-
-
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
 	top: 90%;
 	width: auto;
 	padding: 16px;
-	margin-top: -22px;
-	color: white;
+	margin-top: -5%;
+	color: black;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 30px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 }
 .next {
-	right: 400px;
+	right: 31%;
 	border-radius: 3px 0 0 3px;
 }
 .prev:hover, .next:hover {
@@ -162,15 +163,44 @@ img {
 }
 .text {
 	color: #ada;
-	font-size: 30px;
+	font-size: 25px;
 	position: absolute;
-	margin-top: 5px;
+	margin-top: 0.5%;
 	width: 100%;
-	right: 50px;
+	right: 3%;
 	text-align: center;
 }
 .active:hover {
 	background-color: #717171;
+}
+@media screen and (max-width: 1024px){
+	.prev, .next {
+	top: 90%;
+	padding: 1%;
+	margin-top: 5%;
+	font-size: 20px;
+	#tableCal {
+	width: 90%;
+	margin: 0 auto;
+	background-color: green;
+	text-align: center;
+}
+#tableCal {
+	width: 90%;
+	margin: 0 auto;
+	background-color: green;
+	text-align: center;
+}
+#tableCal .btn {
+	width: 40%;
+}
+#zero {
+	width: 10%;
+}
+#equ {
+	height: 50px;
+	width: 100%;
+}
 }
 @media screen and (max-width: 768px){
 	#globalNav {
@@ -228,36 +258,20 @@ img {
 		margin-left: 1%;
 	}
 	.prev, .next {
-		cursor: pointer;
-		position: absolute;
 		top: 105%;
-		width: auto;
 		padding: 16px;
-		margin-top: -22px;
-		color: black;
-		font-weight: bold;
+		margin-top: 15%;
 		font-size: 18px;
-		transition: 0.6s ease;
-		border-radius: 0 3px 3px 0;
-		user-select: none;
 	}
 	.next {
 		right: 45px;
-		border-radius: 3px 0 0 3px;
 	}
 	img {
-		vertical-align: middle;
 		width: 100%;
 		height:250px; 
 	}
 	.text {
-		color: #ada;
-		font-size: 20px;
-		position: absolute;
-		margin-top: -20px;
-		width: 100%;
-		right: 10px;
-		text-align: center;
+		margin-top: -5%;
 	}
 }
 @media screen and (max-width: 480px){
@@ -318,35 +332,39 @@ img {
 		margin-top: 250px;
 	}
 	.prev, .next {
-		cursor: pointer;
-		position: absolute;
-		top: 105%;
-		width: auto;
+		top: 130%;
 		padding: 16px;
-		margin-top: -22px;
-		color: black;
-		font-weight: bold;
-		font-size: 18px;
-		transition: 0.6s ease;
-		border-radius: 0 3px 3px 0;
-		user-select: none;
+		margin-top: 1%;
+		font-size: 15px;
 	}
 	.next {
-		right: 45px;
-		border-radius: 3px 0 0 3px;
+		right: 7%;
 	}
 	img {
-		vertical-align: middle;
-		width: 100%;
 		height:150px; 
 	}
 	.text {
-		color: #ada;
-		font-size: 20px;
-		position: absolute;
-		margin-top: -20px;
-		width: 100%;
-		right: 10px;
-		text-align: center;
+		font-size: 15px;
+		margin-top: -5%;
 	}
+	#tableCal {
+	width: 90%;
+	margin: 0 auto;
+	background-color: green;
+	text-align: center;
+}
+#Result {
+	width: 100%;
+	height: 10px;
+}
+#tableCal .btn {
+	width: 100%;
+}
+#zero {
+	width: 100%;
+}
+#equ {
+	height: 40px;
+	width: 100%;
+}
 }
