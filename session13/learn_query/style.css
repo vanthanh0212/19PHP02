@@ -1,0 +1,12 @@
+#containter {
+	width: 30%;
+	margin: 0 auto;
+}
+.player img {
+	width: 150px;
+	height: 150px;
+}
+.detail img {
+	width: 300px;
+	height: 200px;
+}

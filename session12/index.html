@@ -36,7 +36,8 @@
 	<div id="content">
 		<h3>4.Body</h3>
 		<div id="articleFeature">
-			<table id="tablecal" align="center">
+			<div id="tableCal">
+			<table align="center">
 				<tr>
 					<td colspan="8"><input id="Result" type="text"></td>
 				</tr>
@@ -46,9 +47,6 @@
 					<td><input class="btn" type="button" value="9" onclick="numbers('9')"/></td>
 					<td><input class="btn" type="button" value="/" onclick="numbers('/')"/></td>
 					<td><input class="btn" type="button" value="<-" onclick="clear()"/></td> 
-					<td><input class="btn" type="button" value="%" onclick="numbers('%')"/></td>
-					<td><input class="btn" type="button" value="(" onclick="numbers('(')"/></td>
-					<td><input class="btn" type="button" value=")" onclick="numbers(')')"/></td>
 				</tr>
 				<tr>
 					<td><input class="btn" type="button" value="4" onclick="numbers('4')"/></td>
@@ -56,29 +54,21 @@
 					<td><input class="btn" type="button" value="6" onclick="numbers('6')"/></td>
 					<td><input class="btn" type="button" value="*" onclick="numbers('*')"/></td>
 					<td><input class="btn" type="button" value="C" onclick=/></td>
-					<td><input class="btn" type="button" value="sqrt" onclick="numbers('sqrt')"/></td>
-					<td><input class="btn" type="button" value="^" onclick="numbers('^')"/></td>
-					<td><input class="btn" type="button" value="!" onclick="numbers('!')"/></td>
 				</tr>
 				<tr>
 					<td><input class="btn" type="button" value="1" onclick="numbers('1')"/></td>
 					<td><input class="btn" type="button" value="2" onclick="numbers('2')"/></td>
 					<td><input class="btn" type="button" value="3" onclick="numbers('3')"/></td>
 					<td><input class="btn" type="button" value="+" onclick="numbers('+')"/></td>
-					<td><input class="btn" type="button" value="sin" onclick="numbers('sin')"/></td>
-					<td><input class="btn" type="button" value="tan" onclick="numbers('tan')"/></td>
-					<td><input class="btn" type="button" value="log" onclick="numbers('log')"/></td>
 					<td rowspan="2"><input id="equ" type="button" value="=" onclick="calculation()"/></td>
 				</tr>
 				<tr>
 					<td colspan="2"><input id="zero" type="button" value="0"onclick="numbers('0')"/></td>
 					<td><input class="btn" type="button" value=" "onclick="numbers(' ')"/></td>
-					<td><input class="btn" type="button" value="." onclick="numbers('.')"/></td>
-					<td><input class="btn" type="button" value="cos" onclick="numbers('cos')"/></td>
-					<td><input class="btn" type="button" value="cot" onclick="numbers('cot')"/></td>
-					<td><input class="btn" type="button" value="e" onclick="numbers('e')"/></td>
+					<td><input class="btn" type="button" value="-" onclick="numbers('-')"/></td>
 				</tr>
 			</table>
+		</div>
 		</div>
 		<div id="articleListing">
 			<div class="mySlides fade">

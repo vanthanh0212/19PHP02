@@ -1,0 +1,12 @@
+$("#demo1").click(function(){
+	$("#image").attr('src','12.jpg');
+});
+$("#demo2").click(function(){
+	$("#image").attr('src','14.jpg');
+});
+$("#demo3").click(function(){
+	$("#image").attr('src','15.jpg');
+});
+$("#demo4").click(function(){
+	$("#image").attr('src','16.jpg');
+});
