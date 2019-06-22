@@ -11,42 +11,42 @@
 			<td colspan="8"><input id="Result" type="text"></td>
 		</tr>
 		<tr>
-			<td><input class="btn" type="button" value="7" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="8" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="9" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="/" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="<-" onclick="Result.value = Result.value.substr(0,Result.value.length-1)"/></td>
-			<td><input class="btn" type="button" value="%" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="(" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value=")" onclick="Result.value +=this.value"/></td>
+			<td><input class="btn" type="button" value="7" onclick="numbers('7')"/></td>
+			<td><input class="btn" type="button" value="8" onclick="numbers('8')"/></td>
+			<td><input class="btn" type="button" value="9" onclick="numbers('9')"/></td>
+			<td><input class="btn" type="button" value="/" onclick="numbers('/')"/></td>
+			<td><input class="btn" type="button" value="<-" onclick="clear()"/></td> 
+			<td><input class="btn" type="button" value="%" onclick="numbers('%')"/></td>
+			<td><input class="btn" type="button" value="(" onclick="numbers('(')"/></td>
+			<td><input class="btn" type="button" value=")" onclick="numbers(')')"/></td>
 		</tr>
 		<tr>
-			<td><input class="btn" type="button" value="4" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="5" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="6" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="*" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="C" onclick="Result.value =' '"/></td>
-			<td><input class="btn" type="button" value="sqrt" onclick="Result.value = Math.sqrt(this.value)"/></td>
-			<td><input class="btn" type="button" value="^" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="!" onclick="Result.value +=this.value"/></td>
+			<td><input class="btn" type="button" value="4" onclick="numbers('4')"/></td>
+			<td><input class="btn" type="button" value="5" onclick="numbers('5')"/></td>
+			<td><input class="btn" type="button" value="6" onclick="numbers('6')"/></td>
+			<td><input class="btn" type="button" value="*" onclick="numbers('*')"/></td>
+			<td><input class="btn" type="button" value="C" onclick=/></td>
+			<td><input class="btn" type="button" value="sqrt" onclick="numbers('sqrt')"/></td>
+			<td><input class="btn" type="button" value="^" onclick="numbers('^')"/></td>
+			<td><input class="btn" type="button" value="!" onclick="numbers('!')"/></td>
 		</tr>
 		<tr>
-			<td><input class="btn" type="button" value="1" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="2" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="3" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="+" onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="sin" onclick="Result.value +=Math.sin(this.value)"/></td>
-			<td><input class="btn" type="button" value="tan" onclick="Result.value +=Math.tan(this.value)"/></td>
-			<td><input class="btn" type="button" value="log" onclick="Result.value =Math.LOG10E(this.value)"/></td>
-			<td rowspan="2"><input id="equ" type="button" value="=" onclick="Result.value = eval(Result.value)"/></td>
+			<td><input class="btn" type="button" value="1" onclick="numbers('1')"/></td>
+			<td><input class="btn" type="button" value="2" onclick="numbers('2')"/></td>
+			<td><input class="btn" type="button" value="3" onclick="numbers('3')"/></td>
+			<td><input class="btn" type="button" value="+" onclick="numbers('+')"/></td>
+			<td><input class="btn" type="button" value="sin" onclick="numbers('sin')"/></td>
+			<td><input class="btn" type="button" value="tan" onclick="numbers('tan')"/></td>
+			<td><input class="btn" type="button" value="log" onclick="numbers('log')"/></td>
+			<td rowspan="2"><input id="equ" type="button" value="=" onclick="calculation()"/></td>
 		</tr>
 		<tr>
-			<td colspan="2"><input id="zero" type="button" value="0"onclick="Result.value +=this.value" /></td>
-			<td><input class="btn" type="button" value=" "onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="." onclick="Result.value +=this.value"/></td>
-			<td><input class="btn" type="button" value="cos" onclick="Result.value =Math.cos(this.value)"/></td>
-			<td><input class="btn" type="button" value="cot" onclick="Result.value =1/(Math.tan(this.value))"/></td>
-			<td><input class="btn" type="button" value="e" onclick="Result.value = Math.log(this.value)"/></td>
+			<td colspan="2"><input id="zero" type="button" value="0"onclick="numbers('0')"/></td>
+			<td><input class="btn" type="button" value=" "onclick="numbers(' ')"/></td>
+			<td><input class="btn" type="button" value="." onclick="numbers('.')"/></td>
+			<td><input class="btn" type="button" value="cos" onclick="numbers('cos')"/></td>
+			<td><input class="btn" type="button" value="cot" onclick="numbers('cot')"/></td>
+			<td><input class="btn" type="button" value="e" onclick="numbers('e')"/></td>
 		</tr>
 	</table>
 	<script type="text/javascript" src="maytinh.js"></script>

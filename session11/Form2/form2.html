@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form2 - Session11</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Register Form</h1>
+	<form>
+		<p>Họ Tên:
+			<input type="text" name="name" id="name">
+		</p>
+		<p id="errName"></p>
+		<p>Số điện đầu kỳ:
+			<input type="number" name="firstNum" id="firstNum">
+		</p>
+		<p id="errFirstNum"></p>
+		<p>Số điện cuối kỳ:
+			<input type="number" name="lastNum" id="lastNum">
+		</p>
+		<p id="errLastNum"></p>
+		<p>Ngày đầu kỳ:
+			<input type="date" name="firstDate" id="firstDate">
+		</p>
+		<p id="errFirstDate"></p>
+		<p>Ngày cuối kỳ:
+			<input type="date" name="lastDate" id="lastDate">
+		</p>
+		<p id="errLastDate"></p>
+		<input type="button" name="Register" value="Register" onclick="allInOne()">
+	</form>
+	<script type="text/javascript" src="style.js"></script>
+</body>
+</html>
